@@ -27,5 +27,6 @@ class CashRegister
   def void_last_transaction
     @total -= @prev_purchase
     @prev_purchase = 0
+    #this does not remove the item(s) from the list of purcahsed items, but that was not part of the assignment, and programmers are lazy, which is a virtue.
   end
 end
